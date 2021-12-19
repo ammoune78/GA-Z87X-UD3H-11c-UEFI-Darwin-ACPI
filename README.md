@@ -14,7 +14,7 @@
 
 These ACPI tables are directly exctracted from the GA-Z87X-UD3H-11c UEFI firmware BIOS and not extracted from running system. They are inside modules, and they was extracted using UEFITool from LongSoft/UEFITool release page, and the UEFITool App used was "NE-A59 & 0.25.1". They was decompiled with iASL 5.1 properly, then updated with ACPI 5.1, and finally patched to work on both Darwin &amp; Windows &amp; Linux as well.
 
-Each table module folder was renamed as following "Table name + module GUID" (to facilitate the search & finding for the user), and it contains Original Extracted Table + Decompiled one, and a folder indicating the patched version in both "ASL & AML".
+Each module table folder was renamed as following "Table name + module GUID" (to facilitate the search & finding for the user), and it contains Original Extracted Table + Decompiled one, and a folder indicating the patched version in both "ASL & AML".
 
 
 
