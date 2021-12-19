@@ -40,9 +40,9 @@ Once you've fully replaced the file on their own modules, except the folders tha
 
 ## CREDITS:
 
-insanelymac
-xpamamadeus
-The HermitCrabs Lab
-THe KiNG
-FredWst
-Nikolaj Schlej aka CodeRush - LongSoft
+insanelymac;
+xpamamadeus;
+The HermitCrabs Lab;
+THe KiNG;
+FredWst;
+Nikolaj Schlej aka CodeRush - LongSoft.
