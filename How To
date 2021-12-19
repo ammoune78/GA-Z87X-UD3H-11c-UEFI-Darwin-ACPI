@@ -1,3 +1,10 @@
+## DISCLAIMER: 
+
+#### I'm not responsible for any brick or damage given to your board nor any of your hardware. Do it on your own, but before doing it, note that this acpi tables are modified to work perfectly for the GA-Z87X-UD3H GIGABYTE MOTHERBOARD with that exact F11c BIOS Firmware, and will not work on others. Please, read carefully how to use these ACPI modified tables. 
+
+
+
+
 ## HOW TO USE:
 
 Now using UEFITool, you only need to find each module by it's name or GUID, open the patched folder, and use "only" the AML file to replace the Original file with it. In UEFITool, double click the module GUID generally as "Freeform" then you right click and choose "Replace Body" as shown in this screenshot. 
