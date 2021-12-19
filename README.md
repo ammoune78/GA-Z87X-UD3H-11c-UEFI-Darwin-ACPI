@@ -3,16 +3,14 @@
 
 
 
-##### DISCLAIMER: 
+## DISCLAIMER: 
 
-I'm not responsible for any brick or damage given to your board nor any of your hardware. Do it on your own, but before doing it, note that this acpi tables are modified to work perfectly for the GA-Z87X-UD3H GIGABYTE MOTHERBOARD with that exact F11c BIOS Firmware, and will not work on others.
-
-Please, read carefully how to use these ACPI modified tables. 
+#### I'm not responsible for any brick or damage given to your board nor any of your hardware. Do it on your own, but before doing it, note that this acpi tables are modified to work perfectly for the GA-Z87X-UD3H GIGABYTE MOTHERBOARD with that exact F11c BIOS Firmware, and will not work on others. Please, read carefully how to use these ACPI modified tables. 
 
 
 
 
-#### INTRODUCTION:
+## INTRODUCTION:
 
 These ACPI tables are directly exctracted from the GA-Z87X-UD3H-11c UEFI firmware BIOS and not extracted from running system. They are inside modules, and they was extracted using UEFITool from LongSoft/UEFITool release page, and the UEFITool App used was "NE-A59 & 0.25.1". They was decompiled with iASL 5.1 properly, then updated with ACPI 5.1, and finally patched to work on both Darwin &amp; Windows &amp; Linux as well.
 
@@ -21,7 +19,7 @@ Each table module folder was renamed as following "Table name + module GUID" (to
 
 
 
-#### HOW TO USE:
+## HOW TO USE:
 
 Now using UEFITool, you only need to find each module by it's name or GUID, open the patched folder, and use "only" the AML file to replace the Original file with it. In UEFITool, double click the module GUID generally as "Freeform" then you right click and choose "Replace Body" as shown in this screenshot. 
 Note: that each module that contain more than one file, are numbered from top to botom as 1, 2, 3 etc... in their folders respectively.
@@ -40,7 +38,7 @@ Once you've fully replaced the file on their own modules, except the folders tha
 
 
 
-#### CREDITS:
+## CREDITS:
 
 insanelymac
 xpamamadeus
